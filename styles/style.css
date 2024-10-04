@@ -1,8 +1,11 @@
+:root{
+  --background: #4682b4
+}
 main {
   max-width: max-content;
 }
 nav {
-  background-color: steelblue;
+  background-color: var(--background);
   padding: 10px;
 }
 nav a {
@@ -11,12 +14,12 @@ nav a {
   padding: 20px;
 }
 h1 {
-  color: steelblue;
+  color: var(--background);
 }
 img {
   width: 150px;
   height: auto;
-  border: 1px solid steelblue;
+  border: 1px solid var(--background);
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
