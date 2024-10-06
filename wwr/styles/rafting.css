@@ -1,0 +1,95 @@
+:root{
+    /*https://coolors.co/505033-264969-cfcfb4-b4cde4*/
+    --drab-dark-brown: rgba(80, 80, 51, 1);
+    --indigo-dye: rgba(38, 73, 105, 0.7);
+    --pearl: rgba(207, 207, 180);
+    --pearl-opacity: rgba(207, 207, 180, 0.5);
+    --columbia-blue: rgba(180, 205, 228, 1);
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 4rem ;
+    padding-top: 1rem;
+
+}
+.logo {
+    border-radius: 50%;
+}
+a {
+    list-style: none;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.links_list{
+    color: var(--pearl);
+    background-color: var(--drab-dark-brown);
+    padding: 2px;
+    margin: 10px;
+}
+.hero{
+    position: relative;
+    text-align:left;
+}
+.rafting_image{
+    margin-left: 4rem;
+    width:90%;
+    height: auto;
+}
+h1{
+    font-family:"Georgia", serif;
+    background-color: var(--indigo-dye);
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    left: 64px;
+}
+h2{
+    color: var(--drab-dark-brown);
+    font-size: 30px;
+}
+.client{
+    width: 200px;
+    height: auto;
+    opacity: 1;
+    margin-right: 10px;
+}
+.socialmedia{
+    width: 2rem;
+}
+article{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 64px;
+    align-items: center;
+    background-color: var(--pearl-opacity);
+    max-width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+section, footer{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.images_rafting{
+    display:flex; 
+    flex-direction: column;
+}
+.rafting{
+    width: 400px;
+    height: auto;
+    margin: 1rem 5px;
+}
+.socialmedia{
+    margin: 10px 10px;
+}
+
