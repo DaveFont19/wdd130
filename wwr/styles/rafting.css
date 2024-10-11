@@ -54,6 +54,7 @@ h1{
 }
 h2{
     color: var(--drab-dark-brown);
+    font-family:"Georgia", serif;
     font-size: 30px;
 }
 .client{
@@ -92,4 +93,6 @@ section, footer{
 .socialmedia{
     margin: 10px 10px;
 }
-
+p {
+    font-family:'Roboto', sans-serif;
+}
