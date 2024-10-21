@@ -23,7 +23,7 @@
       <img src="./images/logo11_200.png" alt="logo" class="logo" />
       <nav>
         <ul class="navigation">
-          <li><a href="index.html" class="links_list">Home</a></li>
+          <li><a href="about.html" class="links_list">Home</a></li>
           <li><a href="about.html" class="links_list">About Us</a></li>
           <li><a href="trips.html" class="links_list">Trips</a></li>
           <li><a href="contact.html" class="links_list">Contact Us</a></li>
@@ -31,42 +31,77 @@
       </nav>
     </header>
     <main>
-      <h2>Send Us a Message</h2>
-      <p>Address: St. Louis 2234</p>
-      <p>3335625</p>
-      <p>david@david</p>
-      <a>https://maps.app.goo.gl/Kv2k7WiQgAs3kP9Y9</a>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+      <hero>
+        <h1 class="title2">White Water Rafting</h1>
+        <img src="images/grupo-xcaretjpeg.webp" class="employee" />
+      </hero>
 
-        <label for="email">Email: </label>
-        <input type="email" id="email" name="email" required>
-        
-        <label>Porpuse Message</label>
-        <div>
-          <input type="radio" id="general" name="porpuse" value="general">
-          <label for="general">General Inquiry</label>
+      <section>
+        <div class="information">
+          <h2>Send Us a Message</h2>
+          <p class="address">Address: St. Louis 2234</p>
+          <p class="address">Phone Number: 3335625</p>
+          <p class="address">Email: david@david</p>
+          <a class="address"
+            >Location: https://maps.app.goo.gl/Kv2k7WiQgAs3kP9Y9</a
+          >
         </div>
-        <div>
-          <input type="radio" id="general" name="porpuse" value="general">
-          <label for="general">Reservation Question</label>
-        </div>
-        <div>
-          <input type="radio" id="general" name="porpuse" value="general">
-          <label for="general">Website Suggestion</label>
-        </div>
-        <label for="message">Message: </label>
-        <textarea id="message" name="message"></textarea>
-        <div>
-          <input type="checkbox" id="subscribe" name="subscribe">
-          <label for="subscribe"> Please subscribe me to the monthly newsletter</label>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
+        <form>
+          <section style="display: flex" class="section_form">
+            <div style="display: flex; flex-direction: column">
+              <div style="margin-bottom: 15px">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <label>Porpuse Message</label>
+              <label for="general">
+                <input
+                  type="radio"
+                  id="general"
+                  name="porpuse"
+                  value="general"
+                />General Inquiry
+              </label>
+              <label for="general"
+                ><input
+                  type="radio"
+                  id="general"
+                  name="porpuse"
+                  value="general"
+                />Reservation Question
+              </label>
+              <label for="general" style="margin-bottom: 15px">
+                <input
+                  type="radio"
+                  id="general"
+                  name="porpuse"
+                  value="general"
+                />
+                Website Suggestion</label
+              >
+              <label for="subscribe" style="margin-bottom: 15px">
+                <input type="checkbox" id="subscribe" name="subscribe" />
+
+                Please subscribe me to the monthly newsletter</label
+              >
+            </div>
+            <div class="form">
+              <label for="message"
+                >Message: </label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+          </section>
+          <button type="submit" class="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
-      <p class="copy">&copy;2024 | White Water Rafting | David Alonso Fontes Luna</p>
+      <p class="copy">
+        &copy;2024 | White Water Rafting | David Alonso Fontes Luna
+      </p>
       <div class="logos_media">
         <a href="https://www.facebook.com/"
           ><img
@@ -84,6 +119,9 @@
           ><img src="./images/x_logo_icon.png" alt="x" class="socialmedia"
         /></a>
       </div>
+      <a style="padding-left: 40px; padding-top: 20px"
+        >https://app.moqups.com/WowOGbzNxR9AQKLZ9yjmTuhjoGrwIdVU/view/page/ad64222d5</a
+      >
     </footer>
   </body>
 </html>
