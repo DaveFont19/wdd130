@@ -83,7 +83,7 @@ h2 {
 .socialmedia {
   width: 2rem;
 }
-article {
+.article_about {
   display: flex;
   position: absolute;
   top: 40%;
