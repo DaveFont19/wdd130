@@ -23,6 +23,10 @@ header {
   justify-self: start;
   margin-left: 60px;
 }
+a {
+  list-style: none;
+  text-decoration: none;
+}
 nav {
   justify-self: center;
   display: flex;
@@ -110,33 +114,34 @@ footer {
   height: 10rem;
 }
 footer {
-    display:grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    margin:20px 0 ;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin: 20px 0;
 }
-.copy{
-    border-radius: 50%;
-    justify-self: center;
+.copy {
+  border-radius: 50%;
+  justify-self: center;
 }
-.logos_media{
-    margin-right: 6rem;
+.logos_media {
+  margin-right: 6rem;
 }
 .socialmedia {
   margin: 10px 20px;
 }
-p, figcaption {
+p,
+figcaption {
   font-family: "Roboto", sans-serif;
 }
 
 /* This section is for contact.html */
 
-.employee{
+.employee {
   margin-left: 4rem;
   width: 90%;
   height: 45rem;
 }
-.title2{
+.title2 {
   font-family: "Georgia", serif;
   background-color: var(--indigo-dye);
   padding: 20px 0px;
@@ -147,55 +152,78 @@ p, figcaption {
   width: 90%;
   left: 64px;
 }
-.information{
+.information {
   display: flex;
   flex-direction: column;
   align-items: self-start;
   margin-bottom: 40px;
   background-color: var(--columbia-opacity);
 }
-.address{
+.address {
   margin: 8px;
 }
-.form{
+.form {
   margin-bottom: 15px;
-
 }
-textarea{
+textarea {
   width: 150px;
 }
-.section_form{
+.section_form {
   margin-left: 0px;
   justify-content: space-around;
 }
-.submit{
-  background-color:#0071ad ;
-  color:white;
+.submit {
+  background-color: #0071ad;
+  color: white;
   font-size: 15px;
   width: 80px;
   border-radius: 10%;
 }
-/* This section is for home */
+/* This section is for index.html */
 
-.hero form{
+.hero form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.trips_home{
+.trips_home {
   text-align: center;
   padding: 20px;
 }
-.ref_trips{
-  list-style: none;
-  text-decoration: none;
+.ref_trips {
   background-color: #0071ad;
   border-radius: 10%;
   padding: 2px;
 }
-.grid_home{
+.grid_home {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 40px 20px;
+}
+
+/* This section is for trips.html*/
+.trip {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.trip img {
+  max-width: 100%;
+  height: auto;
+}
+.trip_table {
+  background-color: var(--indigo-dye);
+  padding: 20px;
+}
+.trip_table table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.trip_table th, .trip_table td{
+  border: 1px solid var(--indigo-dye);
+  padding: 8px;
+  text-align: center;
 }
