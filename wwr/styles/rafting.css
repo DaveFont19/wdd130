@@ -175,3 +175,27 @@ textarea{
   width: 80px;
   border-radius: 10%;
 }
+/* This section is for home */
+
+.hero form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trips_home{
+  text-align: center;
+  padding: 20px;
+}
+.ref_trips{
+  list-style: none;
+  text-decoration: none;
+  background-color: #0071ad;
+  border-radius: 10%;
+  padding: 2px;
+}
+.grid_home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 40px 20px;
+}
